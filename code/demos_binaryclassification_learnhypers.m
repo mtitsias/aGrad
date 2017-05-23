@@ -1,0 +1,8 @@
+% - Binary Classification examples - learning the hyerparameters
+%
+demBinaryClassification_AuxZ_learnhypers;
+demBinaryClassification_AuxU_learnhypers;
+demBinaryClassification_Ellipt_learnhypers;
+demBinaryClassification_pCN_learnhypers; 
+demBinaryClassification_pCNL_learnhypers;
+demBinaryClassification_AuxZadvanced_learnhypers;

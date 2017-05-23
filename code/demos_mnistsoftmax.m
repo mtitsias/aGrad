@@ -1,0 +1,4 @@
+demMultiClassMnist_AuxZadvanced_learnhypers;
+demMultiClassMnist_Ellipt_learnhypers;
+demMultiClassMnist_AuxZ_learnhypers; 
+demMultiClassMnist_pCNL_learnhypers;
