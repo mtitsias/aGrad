@@ -11,10 +11,9 @@ gpsampAuxZ_learnhypers_joint.m  % it implements aGrad-z-joint for learning hyper
 gpsampAuxZ_learnhypers.m        % it implements aGrad-z-gibbs for learning hyperparameters
 gpsamppCN_learnhypers.m         % it implements pCN(L)-gibbs for learning hyperparameters
 gpsampEllipt_learnhypers.m      % it implements Ellipt-gibbs for learning hyperparameters
-gpsampAuxU_learnhypers.m        % it implements uGrad-z-gibbs for learning hyperparameters (this method was not used ion the paper)
+gpsampAuxU_learnhypers.m        % it implements uGrad-z-gibbs for learning hyperparameters (this method was not used in the paper)
 
-% DEMOS  (notice that we do not fix random seeds, so if you re-run the demos 
-%  you will get similar but not identical numbers as the ones reported in the paper)
+% DEMOS 
 demos_informlik.m  % Runs all demos from section 5.1 Gaussian process regression and small noise limit
     % the individual demos are the following
     demRegressInformLikelMarg_fixedhypers.m
@@ -64,4 +63,5 @@ make_plots_mnistsoftmax_learnhypers.m % creates the plot for mnist dataset in se
 make_plots_binaryclassification_learnhypers.m  % creates the plots and tables for the case we learn hyperparameters 
                                                % for all binary classification datasets 
                                                % (only the ones for the dataset Pima are mentioned in the paper)
+make_acf.m % it creates the autocorrelation plots against CPU time that appear in Figure 1 in the main paper 
 
