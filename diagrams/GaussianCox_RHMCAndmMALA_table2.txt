@@ -1,0 +1,4 @@
+Method &  Time(s) & Step size $\delta$  &  ESS (Min, Med, Max)  & Min ESS/s (1 st.d.) \\ 
+\midrule
+mMALA  &   17.7  &  0.070  &  (18.9, 89.2, 187.0)  &  1.07 (0.26) \\ 
+RHMC  &  77.9  &  0.100  &  (1761.8, 4769.2, 5000.0)  &  22.70 (1.82) \\ 

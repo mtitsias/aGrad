@@ -1,0 +1,1270 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: MATLAB, The MathWorks, Inc. Version 7.12.0.635 (R2011a). Operating System: Linux 3.5.0-54-generic #81~precise1-Ubuntu SMP Tue Jul 15 04:02:22 UTC 2014 x86_64.
+%%Title: ../diagrams/RegressInformLikel_data1.eps
+%%CreationDate: 05/17/2017  17:33:01
+%%DocumentNeededFonts: Helvetica
+%%DocumentProcessColors: Cyan Magenta Yellow Black
+%%LanguageLevel: 2
+%%Pages: 1
+%%BoundingBox:    23   179   550   597
+%%EndComments
+
+%%BeginProlog
+% MathWorks dictionary
+/MathWorks 160 dict begin
+% definition operators
+/bdef {bind def} bind def
+/ldef {load def} bind def
+/xdef {exch def} bdef
+/xstore {exch store} bdef
+% operator abbreviations
+/c  /clip ldef
+/cc /concat ldef
+/cp /closepath ldef
+/gr /grestore ldef
+/gs /gsave ldef
+/mt /moveto ldef
+/np /newpath ldef
+/cm /currentmatrix ldef
+/sm /setmatrix ldef
+/rm /rmoveto ldef
+/rl /rlineto ldef
+/s {show newpath} bdef
+/sc {setcmykcolor} bdef
+/sr /setrgbcolor ldef
+/sg /setgray ldef
+/w /setlinewidth ldef
+/j /setlinejoin ldef
+/cap /setlinecap ldef
+/rc {rectclip} bdef
+/rf {rectfill} bdef
+% page state control
+/pgsv () def
+/bpage {/pgsv save def} bdef
+/epage {pgsv restore} bdef
+/bplot /gsave ldef
+/eplot {stroke grestore} bdef
+% orientation switch
+/portraitMode 0 def /landscapeMode 1 def /rotateMode 2 def
+% coordinate system mappings
+/dpi2point 0 def
+% font control
+/FontSize 0 def
+/FMS {/FontSize xstore findfont [FontSize 0 0 FontSize neg 0 0]
+  makefont setfont} bdef
+/reencode {exch dup where {pop load} {pop StandardEncoding} ifelse
+  exch dup 3 1 roll findfont dup length dict begin
+  { 1 index /FID ne {def}{pop pop} ifelse } forall
+  /Encoding exch def currentdict end definefont pop} bdef
+/isroman {findfont /CharStrings get /Agrave known} bdef
+/FMSR {3 1 roll 1 index dup isroman {reencode} {pop pop} ifelse
+  exch FMS} bdef
+/csm {1 dpi2point div -1 dpi2point div scale neg translate
+ dup landscapeMode eq {pop -90 rotate}
+  {rotateMode eq {90 rotate} if} ifelse} bdef
+% line types: solid, dotted, dashed, dotdash
+/SO { [] 0 setdash } bdef
+/DO { [.5 dpi2point mul 4 dpi2point mul] 0 setdash } bdef
+/DA { [6 dpi2point mul] 0 setdash } bdef
+/DD { [.5 dpi2point mul 4 dpi2point mul 6 dpi2point mul 4
+  dpi2point mul] 0 setdash } bdef
+% macros for lines and objects
+/L {lineto stroke} bdef
+/MP {3 1 roll moveto 1 sub {rlineto} repeat} bdef
+/AP {{rlineto} repeat} bdef
+/PDlw -1 def
+/W {/PDlw currentlinewidth def setlinewidth} def
+/PP {closepath eofill} bdef
+/DP {closepath stroke} bdef
+/MR {4 -2 roll moveto dup  0 exch rlineto exch 0 rlineto
+  neg 0 exch rlineto closepath} bdef
+/FR {MR stroke} bdef
+/PR {MR fill} bdef
+/L1i {{currentfile picstr readhexstring pop} image} bdef
+/tMatrix matrix def
+/MakeOval {newpath tMatrix currentmatrix pop translate scale
+0 0 1 0 360 arc tMatrix setmatrix} bdef
+/FO {MakeOval stroke} bdef
+/PO {MakeOval fill} bdef
+/PD {currentlinewidth 2 div 0 360 arc fill
+   PDlw -1 eq not {PDlw w /PDlw -1 def} if} def
+/FA {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arc tMatrix setmatrix stroke} bdef
+/PA {newpath tMatrix currentmatrix pop	translate 0 0 moveto scale
+  0 0 1 5 -2 roll arc closepath tMatrix setmatrix fill} bdef
+/FAn {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arcn tMatrix setmatrix stroke} bdef
+/PAn {newpath tMatrix currentmatrix pop translate 0 0 moveto scale
+  0 0 1 5 -2 roll arcn closepath tMatrix setmatrix fill} bdef
+/vradius 0 def /hradius 0 def /lry 0 def
+/lrx 0 def /uly 0 def /ulx 0 def /rad 0 def
+/MRR {/vradius xdef /hradius xdef /lry xdef /lrx xdef /uly xdef
+  /ulx xdef newpath tMatrix currentmatrix pop ulx hradius add uly
+  vradius add translate hradius vradius scale 0 0 1 180 270 arc 
+  tMatrix setmatrix lrx hradius sub uly vradius add translate
+  hradius vradius scale 0 0 1 270 360 arc tMatrix setmatrix
+  lrx hradius sub lry vradius sub translate hradius vradius scale
+  0 0 1 0 90 arc tMatrix setmatrix ulx hradius add lry vradius sub
+  translate hradius vradius scale 0 0 1 90 180 arc tMatrix setmatrix
+  closepath} bdef
+/FRR {MRR stroke } bdef
+/PRR {MRR fill } bdef
+/MlrRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lry uly sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 90 270 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 270 90 arc tMatrix setmatrix
+  closepath} bdef
+/FlrRR {MlrRR stroke } bdef
+/PlrRR {MlrRR fill } bdef
+/MtbRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lrx ulx sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 180 360 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 0 180 arc tMatrix setmatrix
+  closepath} bdef
+/FtbRR {MtbRR stroke } bdef
+/PtbRR {MtbRR fill } bdef
+/stri 6 array def /dtri 6 array def
+/smat 6 array def /dmat 6 array def
+/tmat1 6 array def /tmat2 6 array def /dif 3 array def
+/asub {/ind2 exch def /ind1 exch def dup dup
+  ind1 get exch ind2 get sub exch } bdef
+/tri_to_matrix {
+  2 0 asub 3 1 asub 4 0 asub 5 1 asub
+  dup 0 get exch 1 get 7 -1 roll astore } bdef
+/compute_transform {
+  dmat dtri tri_to_matrix tmat1 invertmatrix 
+  smat stri tri_to_matrix tmat2 concatmatrix } bdef
+/ds {stri astore pop} bdef
+/dt {dtri astore pop} bdef
+/db {2 copy /cols xdef /rows xdef mul dup 3 mul string
+  currentfile 
+  3 index 0 eq {/ASCIIHexDecode filter}
+  {/ASCII85Decode filter 3 index 2 eq {/RunLengthDecode filter} if }
+  ifelse exch readstring pop
+  dup 0 3 index getinterval /rbmap xdef
+  dup 2 index dup getinterval /gbmap xdef
+  1 index dup 2 mul exch getinterval /bbmap xdef pop pop}bdef
+/it {gs np dtri aload pop moveto lineto lineto cp c
+  cols rows 8 compute_transform 
+  rbmap gbmap bbmap true 3 colorimage gr}bdef
+/il {newpath moveto lineto stroke}bdef
+currentdict end def
+%%EndProlog
+
+%%BeginSetup
+MathWorks begin
+
+0 cap
+
+end
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+%%PageBoundingBox:    23   179   550   597
+MathWorks begin
+bpage
+%%EndPageSetup
+
+%%BeginObject: obj1
+bplot
+
+/dpi2point 4.16667 def
+portraitMode 0075 2550 csm
+
+   24    59  2195  1742 rc
+85 dict begin %Colortable dictionary
+/c0 { 0.000000 0.000000 0.000000 sr} bdef
+/c1 { 1.000000 1.000000 1.000000 sr} bdef
+/c2 { 0.900000 0.000000 0.000000 sr} bdef
+/c3 { 0.000000 0.820000 0.000000 sr} bdef
+/c4 { 0.000000 0.000000 0.800000 sr} bdef
+/c5 { 0.910000 0.820000 0.320000 sr} bdef
+/c6 { 1.000000 0.260000 0.820000 sr} bdef
+/c7 { 0.000000 0.820000 0.820000 sr} bdef
+c0
+1 j
+1 sg
+   0    0 2401 1802 rf
+2.08333 w
+0 1429 1860 0 0 -1429 312 1564 4 MP
+PP
+-1860 0 0 1429 1860 0 0 -1429 312 1564 5 MP stroke
+1.38889 w
+DO
+SO
+2.08333 w
+0 sg
+ 312 1564 mt 2172 1564 L
+ 312  135 mt 2172  135 L
+ 312 1564 mt  312  135 L
+2172 1564 mt 2172  135 L
+ 312 1564 mt 2172 1564 L
+ 312 1564 mt  312  135 L
+ 312 1564 mt  312 1545 L
+ 312  135 mt  312  153 L
+%%IncludeResource: font Helvetica
+/Helvetica /ISOLatin1Encoding 108.333 FMSR
+
+ 282 1676 mt 
+(0) s
+ 777 1564 mt  777 1545 L
+ 777  135 mt  777  153 L
+ 747 1676 mt 
+(1) s
+1242 1564 mt 1242 1545 L
+1242  135 mt 1242  153 L
+1212 1676 mt 
+(2) s
+1707 1564 mt 1707 1545 L
+1707  135 mt 1707  153 L
+1677 1676 mt 
+(3) s
+2172 1564 mt 2172 1545 L
+2172  135 mt 2172  153 L
+2142 1676 mt 
+(4) s
+ 312 1564 mt  330 1564 L
+2172 1564 mt 2153 1564 L
+ 177 1604 mt 
+(-5) s
+ 312  849 mt  330  849 L
+2172  849 mt 2153  849 L
+ 240  889 mt 
+(0) s
+ 312  135 mt  330  135 L
+2172  135 mt 2153  135 L
+ 240  175 mt 
+(5) s
+ 312 1564 mt 2172 1564 L
+ 312  135 mt 2172  135 L
+ 312 1564 mt  312  135 L
+2172 1564 mt 2172  135 L
+gs 312 135 1861 1430 rc
+gr
+
+gs 298 177 1888 1284 rc
+   6    6  312  840 FO
+   6    6  313  553 FO
+   6    6  315  765 FO
+   6    6  317  659 FO
+   6    6  319  508 FO
+   6    6  321  751 FO
+   6    6  323  916 FO
+   6    6  325  291 FO
+   6    6  326  758 FO
+   6    6  328  870 FO
+   6    6  330  693 FO
+   6    6  332  567 FO
+   6    6  334  818 FO
+   6    6  336  624 FO
+   6    6  338  710 FO
+   6    6  339  856 FO
+   6    6  341  605 FO
+   6    6  343  465 FO
+   6    6  345  909 FO
+   6    6  347  683 FO
+   6    6  349  756 FO
+   6    6  351  645 FO
+   6    6  352  751 FO
+   6    6  354  586 FO
+   6    6  356  474 FO
+   6    6  358  488 FO
+   6    6  360  642 FO
+   6    6  362  679 FO
+   6    6  364  715 FO
+   6    6  365  601 FO
+   6    6  367  695 FO
+   6    6  369  780 FO
+   6    6  371  622 FO
+   6    6  373  751 FO
+   6    6  375  616 FO
+   6    6  377  791 FO
+   6    6  378  497 FO
+   6    6  380  669 FO
+   6    6  382  403 FO
+   6    6  384  644 FO
+   6    6  386  765 FO
+   6    6  388  489 FO
+   6    6  390  509 FO
+   6    6  391  781 FO
+   6    6  393  664 FO
+   6    6  395  541 FO
+   6    6  397  698 FO
+   6    6  399  476 FO
+   6    6  401  738 FO
+   6    6  403  792 FO
+   6    6  405  628 FO
+   6    6  406  979 FO
+   6    6  408  573 FO
+   6    6  410  775 FO
+   6    6  412  704 FO
+   6    6  414  817 FO
+   6    6  416  845 FO
+   6    6  418  764 FO
+   6    6  419  770 FO
+   6    6  421  507 FO
+   6    6  423  791 FO
+   6    6  425  841 FO
+   6    6  427  769 FO
+   6    6  429  758 FO
+   6    6  431  726 FO
+   6    6  432  901 FO
+   6    6  434  771 FO
+   6    6  436  706 FO
+   6    6  438  829 FO
+   6    6  440  560 FO
+   6    6  442  731 FO
+   6    6  444 1030 FO
+   6    6  445 1053 FO
+   6    6  447  616 FO
+   6    6  449  937 FO
+   6    6  451  958 FO
+   6    6  453 1083 FO
+   6    6  455  703 FO
+   6    6  457  767 FO
+   6    6  458  862 FO
+   6    6  460  763 FO
+   6    6  462 1082 FO
+   6    6  464  952 FO
+   6    6  466  791 FO
+   6    6  468  932 FO
+   6    6  470  782 FO
+   6    6  471  812 FO
+   6    6  473  893 FO
+   6    6  475  870 FO
+   6    6  477  759 FO
+   6    6  479 1015 FO
+   6    6  481  789 FO
+   6    6  483  612 FO
+   6    6  484  857 FO
+   6    6  486  820 FO
+   6    6  488 1342 FO
+   6    6  490  801 FO
+   6    6  492  870 FO
+   6    6  494 1119 FO
+   6    6  496  978 FO
+   6    6  498 1184 FO
+   6    6  499  891 FO
+   6    6  501  853 FO
+   6    6  503  952 FO
+   6    6  505  978 FO
+   6    6  507  836 FO
+   6    6  509 1049 FO
+   6    6  511 1028 FO
+   6    6  512  846 FO
+   6    6  514  907 FO
+   6    6  516  835 FO
+   6    6  518 1179 FO
+   6    6  520  919 FO
+   6    6  522  874 FO
+   6    6  524 1129 FO
+   6    6  525  674 FO
+   6    6  527  893 FO
+   6    6  529 1044 FO
+   6    6  531  965 FO
+   6    6  533  813 FO
+   6    6  535  731 FO
+   6    6  537 1048 FO
+   6    6  538  934 FO
+   6    6  540 1226 FO
+   6    6  542  841 FO
+   6    6  544 1066 FO
+   6    6  546  829 FO
+   6    6  548 1130 FO
+   6    6  550  680 FO
+   6    6  551 1091 FO
+   6    6  553  874 FO
+   6    6  555  958 FO
+   6    6  557  797 FO
+   6    6  559  808 FO
+   6    6  561 1102 FO
+   6    6  563  759 FO
+   6    6  564  931 FO
+   6    6  566  767 FO
+   6    6  568  753 FO
+   6    6  570  967 FO
+   6    6  572  727 FO
+   6    6  574  980 FO
+   6    6  576 1049 FO
+   6    6  577 1078 FO
+   6    6  579  750 FO
+   6    6  581  937 FO
+   6    6  583  861 FO
+   6    6  585  891 FO
+   6    6  587 1016 FO
+   6    6  589  746 FO
+   6    6  591  969 FO
+   6    6  592 1059 FO
+   6    6  594  846 FO
+   6    6  596  991 FO
+   6    6  598  905 FO
+   6    6  600  930 FO
+   6    6  602  961 FO
+   6    6  604 1003 FO
+   6    6  605 1047 FO
+   6    6  607 1024 FO
+   6    6  609  719 FO
+   6    6  611  857 FO
+   6    6  613 1072 FO
+   6    6  615  761 FO
+   6    6  617  524 FO
+   6    6  618  915 FO
+   6    6  620  950 FO
+   6    6  622  827 FO
+   6    6  624  987 FO
+   6    6  626  740 FO
+   6    6  628  912 FO
+   6    6  630  854 FO
+   6    6  631 1081 FO
+   6    6  633  922 FO
+   6    6  635  856 FO
+   6    6  637  876 FO
+   6    6  639  740 FO
+   6    6  641  703 FO
+   6    6  643  931 FO
+   6    6  644  658 FO
+   6    6  646  882 FO
+   6    6  648  627 FO
+   6    6  650  904 FO
+   6    6  652  750 FO
+   6    6  654 1021 FO
+   6    6  656  687 FO
+   6    6  657 1146 FO
+   6    6  659  880 FO
+   6    6  661  645 FO
+   6    6  663  738 FO
+   6    6  665  811 FO
+   6    6  667  754 FO
+   6    6  669  843 FO
+   6    6  670  759 FO
+   6    6  672  566 FO
+   6    6  674 1137 FO
+   6    6  676  927 FO
+   6    6  678  862 FO
+   6    6  680  634 FO
+   6    6  682  950 FO
+   6    6  684  990 FO
+   6    6  685  927 FO
+   6    6  687  712 FO
+   6    6  689  846 FO
+   6    6  691  769 FO
+   6    6  693  948 FO
+   6    6  695  851 FO
+   6    6  697  996 FO
+   6    6  698  809 FO
+   6    6  700  740 FO
+   6    6  702  953 FO
+   6    6  704 1147 FO
+   6    6  706  750 FO
+   6    6  708  713 FO
+   6    6  710  699 FO
+   6    6  711  781 FO
+   6    6  713  923 FO
+   6    6  715 1031 FO
+   6    6  717  820 FO
+   6    6  719  725 FO
+   6    6  721  851 FO
+   6    6  723  836 FO
+   6    6  724  942 FO
+   6    6  726  690 FO
+   6    6  728 1052 FO
+   6    6  730  947 FO
+   6    6  732  855 FO
+   6    6  734  760 FO
+   6    6  736  650 FO
+   6    6  737  832 FO
+   6    6  739  958 FO
+   6    6  741  838 FO
+   6    6  743  895 FO
+   6    6  745  901 FO
+   6    6  747  913 FO
+   6    6  749 1059 FO
+   6    6  750  887 FO
+   6    6  752  830 FO
+   6    6  754  650 FO
+   6    6  756  856 FO
+   6    6  758 1074 FO
+   6    6  760  698 FO
+   6    6  762  946 FO
+   6    6  763  616 FO
+   6    6  765  804 FO
+   6    6  767  776 FO
+   6    6  769  662 FO
+   6    6  771  679 FO
+   6    6  773  983 FO
+   6    6  775  793 FO
+   6    6  777  832 FO
+   6    6  778  690 FO
+   6    6  780  881 FO
+   6    6  782  859 FO
+   6    6  784  860 FO
+   6    6  786 1126 FO
+   6    6  788  835 FO
+   6    6  790  945 FO
+   6    6  791 1249 FO
+   6    6  793 1143 FO
+   6    6  795 1078 FO
+   6    6  797  943 FO
+   6    6  799  758 FO
+   6    6  801  702 FO
+   6    6  803  893 FO
+   6    6  804  576 FO
+   6    6  806  864 FO
+   6    6  808 1029 FO
+   6    6  810 1055 FO
+   6    6  812 1029 FO
+   6    6  814  748 FO
+   6    6  816  884 FO
+   6    6  817 1054 FO
+   6    6  819  583 FO
+   6    6  821  758 FO
+   6    6  823  999 FO
+   6    6  825  761 FO
+   6    6  827  857 FO
+   6    6  829  945 FO
+   6    6  830  890 FO
+   6    6  832 1021 FO
+   6    6  834 1075 FO
+   6    6  836 1221 FO
+   6    6  838  709 FO
+   6    6  840 1215 FO
+   6    6  842  704 FO
+   6    6  843  980 FO
+   6    6  845  835 FO
+   6    6  847  970 FO
+   6    6  849  855 FO
+   6    6  851  746 FO
+   6    6  853  971 FO
+   6    6  855  843 FO
+   6    6  856  721 FO
+   6    6  858  921 FO
+   6    6  860  945 FO
+   6    6  862 1308 FO
+   6    6  864 1141 FO
+   6    6  866  950 FO
+   6    6  868  711 FO
+   6    6  870  671 FO
+   6    6  871  768 FO
+   6    6  873  988 FO
+   6    6  875  772 FO
+   6    6  877  899 FO
+   6    6  879  955 FO
+   6    6  881 1013 FO
+   6    6  883  408 FO
+   6    6  884  874 FO
+   6    6  886  837 FO
+   6    6  888  941 FO
+   6    6  890  878 FO
+   6    6  892  760 FO
+   6    6  894  705 FO
+   6    6  896  542 FO
+   6    6  897  842 FO
+   6    6  899 1122 FO
+   6    6  901  862 FO
+   6    6  903  741 FO
+   6    6  905  859 FO
+   6    6  907  857 FO
+   6    6  909  752 FO
+   6    6  910  532 FO
+   6    6  912  763 FO
+   6    6  914  775 FO
+   6    6  916  781 FO
+   6    6  918  954 FO
+   6    6  920  886 FO
+   6    6  922  849 FO
+   6    6  923  764 FO
+   6    6  925  568 FO
+   6    6  927 1156 FO
+   6    6  929  718 FO
+   6    6  931  725 FO
+   6    6  933  788 FO
+   6    6  935 1144 FO
+   6    6  936  950 FO
+   6    6  938  594 FO
+   6    6  940  817 FO
+   6    6  942  761 FO
+   6    6  944  552 FO
+   6    6  946  844 FO
+   6    6  948  655 FO
+   6    6  949  742 FO
+   6    6  951  792 FO
+   6    6  953  737 FO
+   6    6  955  630 FO
+   6    6  957  814 FO
+   6    6  959  760 FO
+   6    6  961  838 FO
+   6    6  963  890 FO
+   6    6  964  667 FO
+   6    6  966  795 FO
+   6    6  968  484 FO
+   6    6  970  463 FO
+   6    6  972  975 FO
+   6    6  974  740 FO
+   6    6  976  788 FO
+   6    6  977  720 FO
+   6    6  979  809 FO
+   6    6  981  699 FO
+   6    6  983 1025 FO
+   6    6  985  760 FO
+   6    6  987  638 FO
+   6    6  989  762 FO
+   6    6  990  801 FO
+   6    6  992  796 FO
+   6    6  994  851 FO
+   6    6  996  604 FO
+   6    6  998  670 FO
+   6    6 1000  762 FO
+   6    6 1002  760 FO
+   6    6 1003  811 FO
+   6    6 1005  510 FO
+   6    6 1007  463 FO
+   6    6 1009  431 FO
+   6    6 1011  662 FO
+   6    6 1013  684 FO
+   6    6 1015  630 FO
+   6    6 1016  697 FO
+   6    6 1018  601 FO
+   6    6 1020  740 FO
+   6    6 1022  967 FO
+   6    6 1024  727 FO
+   6    6 1026  602 FO
+   6    6 1028  600 FO
+   6    6 1029  541 FO
+   6    6 1031  848 FO
+   6    6 1033  681 FO
+   6    6 1035  570 FO
+   6    6 1037  905 FO
+   6    6 1039  580 FO
+   6    6 1041  754 FO
+   6    6 1042  837 FO
+   6    6 1044  584 FO
+   6    6 1046  878 FO
+   6    6 1048  527 FO
+   6    6 1050  949 FO
+   6    6 1052  763 FO
+   6    6 1054  921 FO
+   6    6 1056  839 FO
+   6    6 1057  808 FO
+   6    6 1059  758 FO
+   6    6 1061  595 FO
+   6    6 1063  958 FO
+   6    6 1065  909 FO
+   6    6 1067  627 FO
+   6    6 1069  730 FO
+   6    6 1070  832 FO
+   6    6 1072  830 FO
+   6    6 1074  672 FO
+   6    6 1076  691 FO
+   6    6 1078  916 FO
+   6    6 1080  876 FO
+   6    6 1082  728 FO
+   6    6 1083  962 FO
+   6    6 1085 1040 FO
+   6    6 1087  698 FO
+   6    6 1089  804 FO
+   6    6 1091  819 FO
+   6    6 1093  729 FO
+   6    6 1095 1041 FO
+   6    6 1096 1067 FO
+   6    6 1098  700 FO
+   6    6 1100  769 FO
+   6    6 1102  923 FO
+   6    6 1104  927 FO
+   6    6 1106  738 FO
+   6    6 1108 1180 FO
+   6    6 1109  854 FO
+   6    6 1111  884 FO
+   6    6 1113  784 FO
+   6    6 1115 1112 FO
+   6    6 1117  895 FO
+   6    6 1119  925 FO
+   6    6 1121  831 FO
+   6    6 1122  731 FO
+   6    6 1124 1065 FO
+   6    6 1126  748 FO
+   6    6 1128 1147 FO
+   6    6 1130  751 FO
+   6    6 1132  907 FO
+   6    6 1134  829 FO
+   6    6 1135 1042 FO
+   6    6 1137 1048 FO
+   6    6 1139 1102 FO
+   6    6 1141 1069 FO
+   6    6 1143  878 FO
+   6    6 1145  959 FO
+   6    6 1147  557 FO
+   6    6 1149 1136 FO
+   6    6 1150  853 FO
+   6    6 1152 1095 FO
+   6    6 1154 1106 FO
+   6    6 1156  769 FO
+   6    6 1158 1063 FO
+   6    6 1160  809 FO
+   6    6 1162 1169 FO
+   6    6 1163 1032 FO
+   6    6 1165 1179 FO
+   6    6 1167  990 FO
+   6    6 1169 1175 FO
+   6    6 1171  928 FO
+   6    6 1173 1147 FO
+   6    6 1175  957 FO
+   6    6 1176 1042 FO
+   6    6 1178  840 FO
+   6    6 1180 1036 FO
+   6    6 1182  958 FO
+   6    6 1184  837 FO
+   6    6 1186 1163 FO
+   6    6 1188 1085 FO
+   6    6 1189 1082 FO
+   6    6 1191  964 FO
+   6    6 1193 1068 FO
+   6    6 1195  686 FO
+   6    6 1197  985 FO
+   6    6 1199  946 FO
+   6    6 1201  996 FO
+   6    6 1202  944 FO
+   6    6 1204  929 FO
+   6    6 1206 1000 FO
+   6    6 1208 1075 FO
+   6    6 1210 1082 FO
+   6    6 1212 1056 FO
+   6    6 1214 1309 FO
+   6    6 1215 1010 FO
+   6    6 1217 1130 FO
+   6    6 1219  969 FO
+   6    6 1221 1194 FO
+   6    6 1223  908 FO
+   6    6 1225  989 FO
+   6    6 1227 1156 FO
+   6    6 1228  966 FO
+   6    6 1230 1161 FO
+   6    6 1232  930 FO
+   6    6 1234 1196 FO
+   6    6 1236  878 FO
+   6    6 1238  891 FO
+   6    6 1240 1014 FO
+   6    6 1242  994 FO
+   6    6 1243  904 FO
+   6    6 1245  986 FO
+   6    6 1247 1034 FO
+   6    6 1249 1055 FO
+   6    6 1251  995 FO
+   6    6 1253 1116 FO
+   6    6 1255  950 FO
+   6    6 1256 1236 FO
+   6    6 1258 1123 FO
+   6    6 1260  667 FO
+   6    6 1262  769 FO
+   6    6 1264 1022 FO
+   6    6 1266 1062 FO
+   6    6 1268  945 FO
+   6    6 1269 1228 FO
+   6    6 1271  897 FO
+   6    6 1273  943 FO
+   6    6 1275  850 FO
+   6    6 1277 1109 FO
+   6    6 1279  887 FO
+   6    6 1281 1086 FO
+   6    6 1282 1055 FO
+   6    6 1284 1020 FO
+   6    6 1286  588 FO
+   6    6 1288  605 FO
+   6    6 1290  817 FO
+   6    6 1292 1069 FO
+   6    6 1294  847 FO
+   6    6 1295  810 FO
+   6    6 1297  933 FO
+   6    6 1299  907 FO
+   6    6 1301  665 FO
+   6    6 1303  934 FO
+   6    6 1305  729 FO
+   6    6 1307  893 FO
+   6    6 1308  797 FO
+   6    6 1310  646 FO
+   6    6 1312  694 FO
+   6    6 1314  787 FO
+   6    6 1316  893 FO
+   6    6 1318  817 FO
+   6    6 1320  738 FO
+   6    6 1321  620 FO
+   6    6 1323  683 FO
+   6    6 1325  879 FO
+   6    6 1327  583 FO
+   6    6 1329  710 FO
+   6    6 1331  716 FO
+   6    6 1333  689 FO
+   6    6 1335  876 FO
+   6    6 1336  804 FO
+   6    6 1338  539 FO
+   6    6 1340  598 FO
+   6    6 1342  805 FO
+   6    6 1344  580 FO
+   6    6 1346  554 FO
+   6    6 1348  865 FO
+   6    6 1349  742 FO
+   6    6 1351  488 FO
+   6    6 1353  688 FO
+   6    6 1355  447 FO
+   6    6 1357  986 FO
+   6    6 1359  812 FO
+   6    6 1361  990 FO
+   6    6 1362  406 FO
+   6    6 1364  594 FO
+   6    6 1366  489 FO
+   6    6 1368  556 FO
+   6    6 1370  679 FO
+   6    6 1372  633 FO
+   6    6 1374  402 FO
+   6    6 1375  771 FO
+   6    6 1377  782 FO
+   6    6 1379  607 FO
+   6    6 1381  833 FO
+   6    6 1383  510 FO
+   6    6 1385  499 FO
+   6    6 1387  597 FO
+   6    6 1388  304 FO
+   6    6 1390  702 FO
+   6    6 1392  645 FO
+   6    6 1394  664 FO
+   6    6 1396  528 FO
+   6    6 1398  762 FO
+   6    6 1400  724 FO
+   6    6 1401  596 FO
+   6    6 1403  756 FO
+   6    6 1405  632 FO
+   6    6 1407  705 FO
+   6    6 1409  634 FO
+   6    6 1411  727 FO
+   6    6 1413  449 FO
+   6    6 1414  572 FO
+   6    6 1416  513 FO
+   6    6 1418  853 FO
+   6    6 1420  668 FO
+   6    6 1422  757 FO
+   6    6 1424  550 FO
+   6    6 1426  734 FO
+   6    6 1428  312 FO
+   6    6 1429  564 FO
+   6    6 1431  668 FO
+   6    6 1433  787 FO
+   6    6 1435  669 FO
+   6    6 1437  681 FO
+   6    6 1439  570 FO
+   6    6 1441  713 FO
+   6    6 1442  603 FO
+   6    6 1444  560 FO
+   6    6 1446  680 FO
+   6    6 1448  611 FO
+   6    6 1450  730 FO
+   6    6 1452  818 FO
+   6    6 1454  846 FO
+   6    6 1455  519 FO
+   6    6 1457  633 FO
+   6    6 1459  812 FO
+   6    6 1461  851 FO
+   6    6 1463  758 FO
+   6    6 1465  830 FO
+   6    6 1467  934 FO
+   6    6 1468  856 FO
+   6    6 1470  622 FO
+   6    6 1472  629 FO
+   6    6 1474  701 FO
+   6    6 1476  665 FO
+   6    6 1478  792 FO
+   6    6 1480  965 FO
+   6    6 1481  777 FO
+   6    6 1483  876 FO
+   6    6 1485  841 FO
+   6    6 1487  788 FO
+   6    6 1489  692 FO
+   6    6 1491  825 FO
+   6    6 1493  991 FO
+   6    6 1494  793 FO
+   6    6 1496  818 FO
+   6    6 1498  843 FO
+   6    6 1500  761 FO
+   6    6 1502  743 FO
+   6    6 1504  839 FO
+   6    6 1506  783 FO
+   6    6 1507  822 FO
+   6    6 1509  960 FO
+   6    6 1511  671 FO
+   6    6 1513  611 FO
+   6    6 1515 1022 FO
+   6    6 1517  962 FO
+   6    6 1519 1033 FO
+   6    6 1520 1162 FO
+   6    6 1522  982 FO
+   6    6 1524  857 FO
+   6    6 1526  877 FO
+   6    6 1528  983 FO
+   6    6 1530 1031 FO
+   6    6 1532  873 FO
+   6    6 1534  662 FO
+   6    6 1535  699 FO
+   6    6 1537 1143 FO
+   6    6 1539  843 FO
+   6    6 1541  931 FO
+   6    6 1543 1145 FO
+   6    6 1545 1097 FO
+   6    6 1547 1083 FO
+   6    6 1548  996 FO
+   6    6 1550  972 FO
+   6    6 1552  947 FO
+   6    6 1554  846 FO
+   6    6 1556  965 FO
+   6    6 1558  928 FO
+   6    6 1560  854 FO
+   6    6 1561 1196 FO
+   6    6 1563  987 FO
+   6    6 1565 1430 FO
+   6    6 1567 1014 FO
+   6    6 1569 1157 FO
+   6    6 1571 1075 FO
+   6    6 1573 1216 FO
+   6    6 1574 1088 FO
+   6    6 1576 1034 FO
+   6    6 1578  957 FO
+   6    6 1580 1268 FO
+   6    6 1582  935 FO
+   6    6 1584 1105 FO
+   6    6 1586 1065 FO
+   6    6 1587 1100 FO
+   6    6 1589 1186 FO
+   6    6 1591  960 FO
+   6    6 1593 1086 FO
+   6    6 1595  902 FO
+   6    6 1597 1182 FO
+   6    6 1599 1393 FO
+   6    6 1600 1040 FO
+   6    6 1602 1382 FO
+   6    6 1604 1043 FO
+   6    6 1606 1265 FO
+   6    6 1608 1070 FO
+   6    6 1610  972 FO
+   6    6 1612 1003 FO
+   6    6 1614 1058 FO
+   6    6 1615 1007 FO
+   6    6 1617 1362 FO
+   6    6 1619  987 FO
+   6    6 1621 1135 FO
+   6    6 1623 1142 FO
+   6    6 1625 1107 FO
+   6    6 1627 1446 FO
+   6    6 1628  885 FO
+   6    6 1630  772 FO
+   6    6 1632 1227 FO
+   6    6 1634 1256 FO
+   6    6 1636  874 FO
+   6    6 1638 1071 FO
+   6    6 1640 1228 FO
+   6    6 1641 1267 FO
+   6    6 1643 1071 FO
+   6    6 1645 1035 FO
+   6    6 1647 1004 FO
+   6    6 1649 1152 FO
+   6    6 1651  954 FO
+   6    6 1653  733 FO
+   6    6 1654 1119 FO
+   6    6 1656  963 FO
+   6    6 1658  962 FO
+   6    6 1660 1083 FO
+   6    6 1662  822 FO
+   6    6 1664  982 FO
+   6    6 1666 1109 FO
+   6    6 1667  933 FO
+   6    6 1669  680 FO
+   6    6 1671 1099 FO
+   6    6 1673  831 FO
+   6    6 1675  983 FO
+   6    6 1677 1277 FO
+   6    6 1679 1093 FO
+   6    6 1680  907 FO
+   6    6 1682  919 FO
+   6    6 1684 1122 FO
+   6    6 1686 1017 FO
+   6    6 1688  600 FO
+   6    6 1690  914 FO
+   6    6 1692  971 FO
+   6    6 1693  867 FO
+   6    6 1695  920 FO
+   6    6 1697 1086 FO
+   6    6 1699  846 FO
+   6    6 1701 1036 FO
+   6    6 1703  721 FO
+   6    6 1705  935 FO
+   6    6 1707  815 FO
+   6    6 1708  960 FO
+   6    6 1710  863 FO
+   6    6 1712  898 FO
+   6    6 1714  710 FO
+   6    6 1716  742 FO
+   6    6 1718  732 FO
+   6    6 1720  799 FO
+   6    6 1721  741 FO
+   6    6 1723  728 FO
+   6    6 1725  755 FO
+   6    6 1727  683 FO
+   6    6 1729  700 FO
+   6    6 1731  708 FO
+   6    6 1733  739 FO
+   6    6 1734  678 FO
+   6    6 1736 1077 FO
+   6    6 1738  675 FO
+   6    6 1740  822 FO
+   6    6 1742  851 FO
+   6    6 1744  459 FO
+   6    6 1746  807 FO
+   6    6 1747  697 FO
+   6    6 1749  485 FO
+   6    6 1751  723 FO
+   6    6 1753  754 FO
+   6    6 1755  488 FO
+   6    6 1757  807 FO
+   6    6 1759  450 FO
+   6    6 1760  703 FO
+   6    6 1762  801 FO
+   6    6 1764  590 FO
+   6    6 1766  323 FO
+   6    6 1768  828 FO
+   6    6 1770  244 FO
+   6    6 1772  448 FO
+   6    6 1773  552 FO
+   6    6 1775  440 FO
+   6    6 1777  591 FO
+   6    6 1779  595 FO
+   6    6 1781  531 FO
+   6    6 1783  769 FO
+   6    6 1785  604 FO
+   6    6 1786  679 FO
+   6    6 1788  659 FO
+   6    6 1790  542 FO
+   6    6 1792  537 FO
+   6    6 1794  341 FO
+   6    6 1796  710 FO
+   6    6 1798  712 FO
+   6    6 1800  621 FO
+   6    6 1801  534 FO
+   6    6 1803  559 FO
+   6    6 1805  530 FO
+   6    6 1807  489 FO
+   6    6 1809  359 FO
+   6    6 1811  569 FO
+   6    6 1813  705 FO
+   6    6 1814  355 FO
+   6    6 1816  377 FO
+   6    6 1818  640 FO
+   6    6 1820  802 FO
+   6    6 1822  768 FO
+   6    6 1824  270 FO
+   6    6 1826  469 FO
+   6    6 1827  366 FO
+   6    6 1829  536 FO
+   6    6 1831  659 FO
+   6    6 1833  706 FO
+   6    6 1835  744 FO
+   6    6 1837  508 FO
+   6    6 1839  190 FO
+   6    6 1840  413 FO
+   6    6 1842  427 FO
+   6    6 1844  544 FO
+   6    6 1846 1012 FO
+   6    6 1848  857 FO
+   6    6 1850  407 FO
+   6    6 1852  693 FO
+   6    6 1853  344 FO
+   6    6 1855  722 FO
+   6    6 1857  482 FO
+   6    6 1859  959 FO
+   6    6 1861  729 FO
+   6    6 1863  459 FO
+   6    6 1865  598 FO
+   6    6 1866  684 FO
+   6    6 1868  722 FO
+   6    6 1870  535 FO
+   6    6 1872  552 FO
+   6    6 1874  763 FO
+   6    6 1876  921 FO
+   6    6 1878  786 FO
+   6    6 1879  826 FO
+   6    6 1881  702 FO
+   6    6 1883  559 FO
+   6    6 1885  690 FO
+   6    6 1887  728 FO
+   6    6 1889  930 FO
+   6    6 1891  771 FO
+   6    6 1893  572 FO
+   6    6 1894  709 FO
+   6    6 1896  826 FO
+   6    6 1898  682 FO
+   6    6 1900  825 FO
+   6    6 1902  498 FO
+   6    6 1904  885 FO
+   6    6 1906  853 FO
+   6    6 1907 1064 FO
+   6    6 1909  881 FO
+   6    6 1911 1075 FO
+   6    6 1913  815 FO
+   6    6 1915  914 FO
+   6    6 1917  698 FO
+   6    6 1919  811 FO
+   6    6 1920  923 FO
+   6    6 1922  846 FO
+   6    6 1924  982 FO
+   6    6 1926  869 FO
+   6    6 1928  962 FO
+   6    6 1930  673 FO
+   6    6 1932  824 FO
+   6    6 1933  937 FO
+   6    6 1935  909 FO
+   6    6 1937 1047 FO
+   6    6 1939 1151 FO
+   6    6 1941  937 FO
+   6    6 1943 1082 FO
+   6    6 1945  906 FO
+   6    6 1946 1122 FO
+   6    6 1948  686 FO
+   6    6 1950 1021 FO
+   6    6 1952  980 FO
+   6    6 1954  972 FO
+   6    6 1956  875 FO
+   6    6 1958 1183 FO
+   6    6 1959  810 FO
+   6    6 1961  669 FO
+   6    6 1963 1144 FO
+   6    6 1965 1158 FO
+   6    6 1967  940 FO
+   6    6 1969  877 FO
+   6    6 1971 1333 FO
+   6    6 1972 1198 FO
+   6    6 1974  951 FO
+   6    6 1976  922 FO
+   6    6 1978  973 FO
+   6    6 1980  844 FO
+   6    6 1982  726 FO
+   6    6 1984  954 FO
+   6    6 1986 1358 FO
+   6    6 1987 1007 FO
+   6    6 1989 1383 FO
+   6    6 1991 1242 FO
+   6    6 1993 1140 FO
+   6    6 1995  909 FO
+   6    6 1997  986 FO
+   6    6 1999 1034 FO
+   6    6 2000 1154 FO
+   6    6 2002 1097 FO
+   6    6 2004 1078 FO
+   6    6 2006  921 FO
+   6    6 2008 1016 FO
+   6    6 2010  812 FO
+   6    6 2012 1277 FO
+   6    6 2013 1154 FO
+   6    6 2015 1002 FO
+   6    6 2017  970 FO
+   6    6 2019 1137 FO
+   6    6 2021 1058 FO
+   6    6 2023 1049 FO
+   6    6 2025 1031 FO
+   6    6 2026  872 FO
+   6    6 2028 1297 FO
+   6    6 2030 1025 FO
+   6    6 2032 1221 FO
+   6    6 2034 1198 FO
+   6    6 2036 1003 FO
+   6    6 2038 1090 FO
+   6    6 2039  838 FO
+   6    6 2041 1107 FO
+   6    6 2043 1004 FO
+   6    6 2045 1000 FO
+   6    6 2047 1087 FO
+   6    6 2049 1074 FO
+   6    6 2051 1228 FO
+   6    6 2052 1313 FO
+   6    6 2054  864 FO
+   6    6 2056  936 FO
+   6    6 2058  882 FO
+   6    6 2060  899 FO
+   6    6 2062 1321 FO
+   6    6 2064 1142 FO
+   6    6 2065  996 FO
+   6    6 2067  931 FO
+   6    6 2069  597 FO
+   6    6 2071 1100 FO
+   6    6 2073  971 FO
+   6    6 2075  839 FO
+   6    6 2077  880 FO
+   6    6 2079  978 FO
+   6    6 2080 1141 FO
+   6    6 2082  838 FO
+   6    6 2084  824 FO
+   6    6 2086 1112 FO
+   6    6 2088  733 FO
+   6    6 2090  869 FO
+   6    6 2092 1069 FO
+   6    6 2093 1078 FO
+   6    6 2095  837 FO
+   6    6 2097 1008 FO
+   6    6 2099  992 FO
+   6    6 2101  789 FO
+   6    6 2103  780 FO
+   6    6 2105  835 FO
+   6    6 2106  790 FO
+   6    6 2108  947 FO
+   6    6 2110  807 FO
+   6    6 2112  553 FO
+   6    6 2114  990 FO
+   6    6 2116  870 FO
+   6    6 2118  813 FO
+   6    6 2119  739 FO
+   6    6 2121  666 FO
+   6    6 2123  882 FO
+   6    6 2125  727 FO
+   6    6 2127 1189 FO
+   6    6 2129  757 FO
+   6    6 2131  727 FO
+   6    6 2132  717 FO
+   6    6 2134  643 FO
+   6    6 2136  667 FO
+   6    6 2138  864 FO
+   6    6 2140  548 FO
+   6    6 2142  667 FO
+   6    6 2144  757 FO
+   6    6 2145  738 FO
+   6    6 2147  892 FO
+   6    6 2149  745 FO
+   6    6 2151  818 FO
+   6    6 2153  544 FO
+   6    6 2155  711 FO
+   6    6 2157  756 FO
+   6    6 2158  731 FO
+   6    6 2160  644 FO
+   6    6 2162  661 FO
+   6    6 2164  985 FO
+   6    6 2166  667 FO
+   6    6 2168  799 FO
+   6    6 2170  529 FO
+   6    6 2172  656 FO
+gr
+
+gs 312 135 1861 1430 rc
+gr
+
+1121 1775 mt 
+(Input) s
+ 133 1094 mt  -90 rotate
+(Response) s
+90 rotate
+
+end %%Color Dict
+
+eplot
+%%EndObject
+
+epage
+end
+
+showpage
+
+%%Trailer
+%%EOF
