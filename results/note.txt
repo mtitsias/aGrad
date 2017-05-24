@@ -1,1 +1,1 @@
-In this directory all mat files from the demos  inside the code are stored.
+In this directory all output mat files from the demos (scripts inside the code directory that start with dem) are stored.

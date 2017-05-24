@@ -1,1 +1,1 @@
-In this directory all plots and Latex tables are stored.
+In this directory all plots and Latex tables are stored by running make*.m files inside the code directory.
