@@ -1,11 +1,6 @@
-function [ ESS ] = CalculateESS( Samples )
+function [ ESS ] = CalculateESS( Samples, MaxLag )
 
 % Samples is a NumOfSamples x NumOfParameters matrix
-
-
-
-Samples = Samples(:); 
-MaxLag = length(Samples)-1;
 
 [NumOfSamples, NumOfParameters] = size(Samples);
 

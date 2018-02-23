@@ -123,6 +123,7 @@ for it = 1:(BurnInIters + Iters)
             sqrtLambda2 = sqrt( deltaLambda.*(fourLambda + model.delta) )./(twoLambda + model.delta);
             partOfMeanSamp = ( (2/model.delta)*FU + derFU').*(Lambda1');
             partOfMeanMH = ( (2/model.delta)*FU + 0.5*derFU').*(Lambda1');
+            Lambda3derFU = Lambda3.*derFU;
         %    
         end
         end

@@ -1,4 +1,4 @@
-function summary = summaryStatistics(samples)
+function summary = summmamcmcryStatistics(samples)
 %
 %
 
@@ -15,7 +15,8 @@ summary.eff_F = zeros(1, size(samples.F,2));
 %end
 
 for j=1:size(samples.F,2)
-    summary.eff_F(j) = mcmc_ess(samples.F(:,j));
+    %summary.eff_F(j) = mcmc_ess(samples.F(:,j)size(samples.F,2));
+    summary.eff_F(j) = CalculateESS(samples.F(:,j), size(samples.F,1)-1);
 end
 %if (8*j+1) < size(samples.F,2)
 %   set = (8*j+1):size(samples.F,2);
